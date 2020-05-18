@@ -1,0 +1,61 @@
+.body {
+    font-family: 'Arial', sans-serif;
+    background-color: firebrick;
+}
+
+.wrapper {
+    max-width:960px;
+    margin: 0 auto;
+    background-color: black;
+    padding: 32px;
+}
+
+header {
+    background-image: url(images/mk_logo_banner.jpg);
+    height: 500px;
+    padding: 4px;
+}
+
+header h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    line-height: 0px
+}
+
+header h2 {
+    font-variant: small-caps;
+    text-align: center;
+    color: #fff;
+}
+
+/* Navigation-Menu */
+
+.Main-Menu {
+    padding: 5px 0 5px 0;
+    text-align: center;
+    color: red;
+    line-height: 32px;
+    background-color: black;
+}
+
+ul.Main-Menu {
+    margin-top: 0px
+}
+
+.Main-Menu li {
+    display: inline;
+    padding: 0 10px 0 10px;
+    font-size: 18px;
+}
+
+.Main-Menu a {
+    text-decoration: none;
+    color: red;
+    padding: 8px;
+    font-variant: small-cops;
+}
+
+.Main-Menu a:hover {
+    color:brown
+}
