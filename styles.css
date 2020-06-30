@@ -4,7 +4,7 @@
 }
 
 .wrapper {
-    max-width:960px;
+    max-width:500px;
     margin: 0 auto;
     background-color: black;
     padding: 32px;
@@ -12,35 +12,23 @@
 
 header {
     background-image: url(images/mk_logo_banner.jpg);
-    height: 500px;
-    padding: 4px;
-}
-
-header h1 {
-    text-transform: uppercase;
-    text-align: center;
-    color: #fff;
-    line-height: 0px
-}
-
-header h2 {
-    font-variant: small-caps;
-    text-align: center;
-    color: #fff;
+    background-size: contain;
+    height: 485px;
 }
 
 /* Navigation-Menu */
 
 .Main-Menu {
     padding: 5px 0 5px 0;
-    text-align: center;
+    text-align: left;
     color: red;
     line-height: 32px;
     background-color: black;
+    border: 3px solid yellow;
 }
 
 ul.Main-Menu {
-    margin-top: 0px
+    margin-top: 0px;
 }
 
 .Main-Menu li {
@@ -51,11 +39,12 @@ ul.Main-Menu {
 
 .Main-Menu a {
     text-decoration: none;
-    color: red;
+    color: whitesmoke;
     padding: 8px;
+    font-size: 1.5em;
     font-variant: small-cops;
 }
 
 .Main-Menu a:hover {
-    color:brown
+    color: red;
 }
