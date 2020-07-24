@@ -4,18 +4,21 @@ body {
     
 }
 
-/* .wrapper {
-    max-width:500px;
-    margin: 0 auto;
-    background-color: black;
-    padding: 32px;
-} */
+
 
 header {
-    background-image: url(images/mk_logo_banner.jpg);
-    background-size: contain;
-    height: 480px;
+    height: 325px;
+    width: 100%;
+    background-image: url(images/cutlite.jpg);
+    background-size: 100% 100%;
 }
+
+header img {
+    max-width: 100%;
+    height: auto;
+    }
+
+
 
 /* Navigation-Menu */
 
@@ -26,25 +29,28 @@ header {
     line-height: 32px;
     background-color: black;
     border: 3px solid yellow;
-}
-
-ul.Main-Menu {
-    margin-top: 0px;
-}
+    width: 100%;
+    margin-top: 0;
+    }
 
 .Main-Menu li {
     display: inline;
     padding: 0 10px 0 10px;
     font-size: 18px;
+   
 }
 
 .Main-Menu a {
     text-decoration: none;
     color: whitesmoke;
-    padding: 8px;
+    /* padding: 8px; */
     font-size: 1.5em;
     font-variant: small-cops;
-}
+} 
+
+
+
+
 
 .Main-Menu a:hover {
     color: red;
@@ -53,23 +59,170 @@ ul.Main-Menu {
 /* Character Grid */
 
 .container {
-    max-width: 800px;
+    max-width: 1500px;
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 1px;
     grid-template-columns: 206px 206px 206px 206px;
     grid-template-rows: 260px 260px 260px;
+    box-sizing: border-box;
+    padding-bottom: 100px;
 }
 
+.characters {
+    border: 8px black solid;
+}
 
-
-
-
+.characters:hover {
+    border-color: limegreen;
+}
 
 .liukang {
+    background-image: url(images/Characters/characters/liuKang.jpg);
+ }
+.kunglao {
+    background-image: url(images/Characters/characters/kungLao.jpg);
+}
+
+.johnnycage {
+    background-image: url(images/Characters/characters/johnnyCage.jpg);
+}
+
+.reptile {
+    background-image: url(images/Characters/characters/reptile.jpg);
+}
+
+.subzero {
+    background-image: url(images/Characters/characters/shangTsung.jpg);
+}
+
+.shangtsung {
+    background-image: url(images/Characters/characters/subZero.jpg);
+}
+
+.katana {
+    background-image: url(images/Characters/characters/katana.jpg);
+}
+
+.jaxbriggs {
+    background-image: url(images/Characters/characters/jax.jpg);
+}
+
+.mileena {
+    background-image: url(images/Characters/characters/mileena.jpg);
+}
+
+.baraka {
+    background-image: url(images/Characters/characters/baraka.jpg);
+}
+
+.scorpion{
+    background-image: url(images/Characters/characters/scorpion.jpg);
+}
+
+.raiden {
+    background-image: url(images/Characters/characters/raiden.jpg);
+}
+
+
+
+
+
+
+/* Image Carousel */
+
+.slideshow-container {
+    width: 45%;
+    position: relative;
+    margin: auto;
     
+ }
+
+.mySlides {
+    display: none;
 }
 
-.liukang:hover {
-    outline-color: red;
-
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    /* width: auto; */
+    /* margin-top: -22px; */
+    /* padding: 16px; */
+    /* color: red; */
+    /* font-weight: bold; */
+    /* font-size: 18px; */
+    transition: 0.8s ease;
+    /* border-radius: 0 3px 3px 0; */
+    /* user-select: none; */
 }
+
+.prev img {
+    width: 80px;
+    height: 80px;
+}
+
+.next img{
+    width: 80px;
+    height: 80px;
+}
+
+.prev {
+    left: -100px;
+}
+
+.next {
+    right: -100px;
+    /* border-radius: 3px 0 0 3px; */
+}
+
+.prev:hover, .next:hover {
+    transform: rotate(360deg);
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color:#f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: yellow;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: red;
+}
+
+/* Responsive */
+
+@media (min-width: 600px) {
+/* .header {
+    display: flex;
+    align-items: center;
+}} */
+
+@media (max-width: 900px) {
+.container {
+    grid-template-columns: 206px 206px 206px;
+    grid-template-rows: 260px 260px 260px 260px;
+}}
+
