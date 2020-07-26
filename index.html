@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mortal Kombat II</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 <header>
@@ -12,30 +13,37 @@
 </header>
     
     <nav>
-      <ul class="Main-Menu">
+      <ul class="mainMenu">
+        
         <li><a href="index.html">Home</li>
         <li><a href="index.html">Characters</li>
         <li><a href="index.html">About</li>
       </ul>
     </nav>
-     
+    
+      <!-- character info -->
+  <div id="characterInfo"></div>  
+    
     <!-- character selection grid -->
     <div class="container">
-      <div class="characters liukang"></div>
-      <div class="characters kunglao"></div>
-      <div class="characters johnnycage"></div>
-      <div class="characters reptile"></div>
-      <div class="characters subzero"></div>
-      <div class="characters shangtsung"></div>
-      <div class="characters katana"></div>
-      <div class="characters jaxbriggs"></div>
-      <div class="characters mileena"></div>
-      <div class="characters baraka"></div>
-      <div class="characters scorpion"></div>
-      <div class="characters raiden"></div>
+      <div class="characters liukang" onclick="liuKang()"></div>
+      <div class="characters kunglao" onclick="kunglao()"></div>
+      <div class="characters johnnycage" onclick="johnnycage()"></div>
+      <div class="characters reptile" onclick="reptile()"></div>
+      <div class="characters subzero" onclick="subzero()"></div>
+      <div class="characters shangtsung" onclick="shangtsung()"></div>
+      <div class="characters katana" onclick="katana()"></div>
+      <div class="characters jaxbriggs" onclick="jaxbriggs()"></div>
+      <div class="characters mileena" onclick="mileena()"></div>
+      <div class="characters baraka" onclick="baraka()"></div>
+      <div class="characters scorpion" onclick="scorpion()"></div>
+      <div class="characters raiden" onclick="raiden()"></div>
     </div>
 
-    <!-- </div> -->
+    
+
+  
+
     <!-- Image carousel -->
   <div class="slideshow-container">
       <div class="mySlides fade">
@@ -66,8 +74,11 @@
       <span class="dot" onclick="currentSlide(2)"></span>
       <span class="dot" onclick="currentSlide(3)"></span>
   </div>
-    
+  
+  
+  
 
+  <script src="js/characterGrid"></script>
   <script src="js/img-carousel"></script>
 </body>
 </html>

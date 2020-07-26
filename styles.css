@@ -22,7 +22,7 @@ header img {
 
 /* Navigation-Menu */
 
-.Main-Menu {
+.mainMenu {
     padding: 5px 0 5px 0;
     text-align: left;
     color: red;
@@ -33,14 +33,14 @@ header img {
     margin-top: 0;
     }
 
-.Main-Menu li {
+.mainMenu li {
     display: inline;
     padding: 0 10px 0 10px;
     font-size: 18px;
    
 }
 
-.Main-Menu a {
+.mainMenu a {
     text-decoration: none;
     color: whitesmoke;
     /* padding: 8px; */
@@ -48,11 +48,7 @@ header img {
     font-variant: small-cops;
 } 
 
-
-
-
-
-.Main-Menu a:hover {
+.mainMenu a:hover {
     color: red;
 }
 
@@ -124,8 +120,17 @@ header img {
 }
 
 
-
-
+/* character info */
+#characterInfo {
+    width: 45%;
+    height: 500px;
+    /* border: 1px solid red; */
+    float: right;
+    top: 100px;
+    background-image: url(images/characters/info/kangBio.jpg);
+    background-size: cover;
+    background-position: center center;
+}
 
 
 /* Image Carousel */
