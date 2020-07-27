@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mortal Kombat II</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<header>
+<img src="images/231c3340-962a-4bd8-b648-970ab4d7bdcd.png">
+</header>
+    
+<nav>
+  <ul class="mainMenu">
+    
+    <li><a href="./home.html">Home</a></li>
+    <li><a href="./characters.html">Characters</a></li>
+    <li><a href="./about.html">About</a></li>
+  </ul>
+</nav>
+
+<div class="slideshow-container">
+    <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="images/carousel/ninjas.png" style="width:100%">
+        <div class="text">Ed Boon and John Tobias The creators of the Mortal Kombat</div>
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="images/carousel/raiden.png" style="width:100%">
+        <div class="text">John Parrish(Jax) & Daniel Pesina(Scorpion)</div>
+    </div>
+    
+    <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="images/carousel/mkVarious.png" style="width:100%">
+        <div class="text">Ho Sung Pak as Liu Kang</div>
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)"> <img src="images/mkButton.png" alt="dragon logo"> </a>
+    <a class="next" onclick="plusSlides(1)"> <img src="images/mkButton.png" alt="dragon logo"> </a>
+</div>
+<br>
+
+<div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+    
+
+    
+<script src="js/imgCarousel.js"></script>
+</body>
+</html>

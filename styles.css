@@ -44,28 +44,28 @@ header img {
     text-decoration: none;
     color: whitesmoke;
     /* padding: 8px; */
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-variant: small-cops;
-} 
+}
 
 .mainMenu a:hover {
     color: red;
 }
 
-/* Character Grid */
+/* Characters-Character Grid */
 
 .container {
     max-width: 1500px;
     display: grid;
     grid-gap: 1px;
-    grid-template-columns: 206px 206px 206px 206px;
-    grid-template-rows: 260px 260px 260px;
+    grid-template-columns: 156px 156px 156px 156px;
+    grid-template-rows: 210px 210px 210px;
     box-sizing: border-box;
-    padding-bottom: 100px;
 }
 
 .characters {
     border: 8px black solid;
+    background-size: 100% 100%;
 }
 
 .characters:hover {
@@ -73,67 +73,74 @@ header img {
 }
 
 .liukang {
-    background-image: url(images/Characters/characters/liuKang.jpg);
+    background-image: url(images/characters/medCharacters/liuKang.jpg);
  }
 .kunglao {
-    background-image: url(images/Characters/characters/kungLao.jpg);
+    background-image: url(images/Characters/medcharacters/kungLao.jpg);
 }
 
 .johnnycage {
-    background-image: url(images/Characters/characters/johnnyCage.jpg);
+    background-image: url(images/Characters/medcharacters/johnnyCage.jpg);
 }
 
 .reptile {
-    background-image: url(images/Characters/characters/reptile.jpg);
+    background-image: url(images/Characters/medcharacters/reptile.jpg);
 }
 
 .shangtsung {
-    background-image: url(images/Characters/characters/shangTsung.jpg);
+    background-image: url(images/Characters/medcharacters/shangTsung.jpg);
 }
 
 .subzero {
-    background-image: url(images/Characters/characters/subZero.jpg);
+    background-image: url(images/Characters/medcharacters/subZero.jpg);
 }
 
 .katana {
-    background-image: url(images/Characters/characters/katana.jpg);
+    background-image: url(images/Characters/medcharacters/katana.jpg);
 }
 
 .jaxbriggs {
-    background-image: url(images/Characters/characters/jax.jpg);
+    background-image: url(images/Characters/medcharacters/jax.jpg);
 }
 
 .mileena {
-    background-image: url(images/Characters/characters/mileena.jpg);
+    background-image: url(images/Characters/medcharacters/mileena.jpg);
 }
 
 .baraka {
-    background-image: url(images/Characters/characters/baraka.jpg);
+    background-image: url(images/Characters/medcharacters/baraka.jpg);
 }
 
 .scorpion{
-    background-image: url(images/Characters/characters/scorpion.jpg);
+    background-image: url(images/Characters/medcharacters/scorpion.jpg);
 }
 
 .raiden {
-    background-image: url(images/Characters/characters/raiden.jpg);
+    background-image: url(images/Characters/medcharacters/raiden.jpg);
 }
 
 
-/* character info */
+/* Characters-character info */
 #characterInfo {
     width: 45%;
-    height: 500px;
-    /* border: 1px solid red; */
+    height: 460px;
+    border: 2px solid yellow;
     float: right;
-    top: 100px;
-    background-image: url(images/characters/info/kangBio.jpg);
-    background-size: cover;
-    background-position: center center;
+    margin-right: 25px;
+    background-image:url(./images/characters/info/reptileBio.jpg);
+    background-size: 100% 100%;
 }
 
 
-/* Image Carousel */
+/* About-Image Carousel */
+
+
+
+
+
+
+
+
 
 .slideshow-container {
     width: 45%;
