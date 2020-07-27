@@ -87,11 +87,11 @@ header img {
     background-image: url(images/Characters/characters/reptile.jpg);
 }
 
-.subzero {
+.shangtsung {
     background-image: url(images/Characters/characters/shangTsung.jpg);
 }
 
-.shangtsung {
+.subzero {
     background-image: url(images/Characters/characters/subZero.jpg);
 }
 
@@ -219,15 +219,15 @@ header img {
 
 /* Responsive */
 
-@media (min-width: 600px) {
-/* .header {
+/* @media (min-width: 600px) {
+.header {
     display: flex;
     align-items: center;
-}} */
+}}
 
 @media (max-width: 900px) {
 .container {
     grid-template-columns: 206px 206px 206px;
     grid-template-rows: 260px 260px 260px 260px;
-}}
+}} */
 

@@ -1,4 +1,0 @@
-function liuKang() {
-    document.getElementById('characterInfo').style.backgroundImage = "url(images/Characters/info/laoBio.jpg)";   
-}
-
