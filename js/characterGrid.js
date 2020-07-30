@@ -1,3 +1,5 @@
+// Change background for character info
+
 function liuKang() {
     document.getElementById('characterInfo').style.backgroundImage = "url(images/Characters/info/kangBio.jpg)";   
 }
