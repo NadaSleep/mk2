@@ -34,9 +34,6 @@ figure {
     padding-left: 0;
 }
 
-
-
-
 header {
     height: 325px;
     width: 100%;
@@ -48,8 +45,6 @@ header img {
     max-width: 100%;
     height: auto;
     }
-
-
 
 /* Navigation-Menu */
 
@@ -74,7 +69,6 @@ header img {
 .mainMenu a {
     text-decoration: none;
     color: whitesmoke;
-    /* padding: 8px; */
     font-size: 1.25em;
     font-variant: small-cops;
 }
@@ -150,7 +144,6 @@ header img {
     background-image: url(images/Characters/medcharacters/raiden.jpg);
 }
 
-
 /* Characters-character info */
 #characterInfo {
     width: 45%;
@@ -180,15 +173,8 @@ header img {
     cursor: pointer;
     position: absolute;
     top: 40%;
-    /* width: auto; */
-    /* margin-top: -22px; */
-    /* padding: 16px; */
-    /* color: red; */
-    /* font-weight: bold; */
-    /* font-size: 18px; */
     transition: 0.8s ease;
-    /* border-radius: 0 3px 3px 0; */
-    /* user-select: none; */
+
 }
 
 .prev img {
@@ -207,7 +193,6 @@ header img {
 
 .next {
     right: -100px;
-    /* border-radius: 3px 0 0 3px; */
 }
 
 .prev:hover, .next:hover {
@@ -252,7 +237,6 @@ header img {
 @media (min-width: 600px) {
 .header {
     display: flex;
-    /* align-items: center; */
     flex-direction: column;
 }}
 
@@ -260,7 +244,6 @@ header img {
 .container {
     grid-template-columns: 156px 156px 156px;
     grid-template-rows: 210px 210px 210px 210px;
-
 }}
 
 @media (max-width: 1250px) {
